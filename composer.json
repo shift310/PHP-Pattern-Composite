@@ -1,0 +1,20 @@
+{
+	"name" : "j-pauli/composite-pattern",
+	"type" : "library",
+	"description" : "PHP Composite Pattern",
+	"homepage" : "http://jpauli.tech",
+	"license" : "BSD-2-Clause",
+	"authors" : [{
+			"name" : "Julien Pauli",
+			"email" : "jpauli@php.net"
+		}
+	],
+	"require" : {
+		"php" : ">=5.6"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Composite\\" : "library/Composite/"
+		}
+	}
+}
